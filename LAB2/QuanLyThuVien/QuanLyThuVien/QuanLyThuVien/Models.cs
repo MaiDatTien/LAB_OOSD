@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace QuanLyThuVien
+namespace QuanLyThuVien.Models
 {
     public class NhanVien
     {
@@ -13,9 +13,18 @@ namespace QuanLyThuVien
         public string SoDienThoai { get; set; }
     }
 
-    public class TheLoai { public string MaTheLoai { get; set; } public string TenTheLoai { get; set; } }
+    public class TheLoai
+    {
+        public string MaTheLoai { get; set; }
+        public string TenTheLoai { get; set; }
+    }
 
-    public class NhaXuatBan { public string MaNhaXuatBan { get; set; } public string DiaChi { get; set; } public string SoDienThoai { get; set; } }
+    public class NhaXuatBan
+    {
+        public string MaNhaXuatBan { get; set; }
+        public string DiaChi { get; set; }
+        public string SoDienThoai { get; set; }
+    }
 
     public class DauSach
     {
@@ -42,11 +51,10 @@ namespace QuanLyThuVien
 
     public class KetQuaXuLy
     {
-        public bool ThanhCong { get; private set; }
-        public string ThongBao { get; private set; }
-        private KetQuaXuLy(bool thanhCong, string thongBao) { ThanhCong = thanhCong; ThongBao = thongBao; }
-        public static KetQuaXuLy Ok(string thongBao) { return new KetQuaXuLy(true, thongBao); }
-        public static KetQuaXuLy Loi(string thongBao) { return new KetQuaXuLy(false, thongBao); }
+        public bool ThanhCong { get; set; }
+        public string ThongBao { get; set; }
+        public static KetQuaXuLy Ok(string msg) => new KetQuaXuLy { ThanhCong = true, ThongBao = msg };
+        public static KetQuaXuLy Loi(string msg) => new KetQuaXuLy { ThanhCong = false, ThongBao = msg };
     }
 
     public class ThongKeTongHop

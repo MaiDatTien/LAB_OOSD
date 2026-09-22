@@ -25,7 +25,9 @@
             this.btnThongKe = new System.Windows.Forms.Button();
             this.btnThoat = new System.Windows.Forms.Button();
             this.SuspendLayout();
-        
+            // 
+            // lblTitle
+            // 
             this.lblTitle.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Bold);
             this.lblTitle.ForeColor = System.Drawing.Color.MidnightBlue;
             this.lblTitle.Location = new System.Drawing.Point(50, 30);
@@ -34,7 +36,9 @@
             this.lblTitle.TabIndex = 0;
             this.lblTitle.Text = "HỆ THỐNG QUẢN LÝ THƯ VIỆN";
             this.lblTitle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-       
+            // 
+            // btnDanhMuc
+            // 
             this.btnDanhMuc.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold);
             this.btnDanhMuc.Location = new System.Drawing.Point(120, 110);
             this.btnDanhMuc.Name = "btnDanhMuc";
@@ -43,7 +47,9 @@
             this.btnDanhMuc.Text = "Danh mục / Nhân viên";
             this.btnDanhMuc.UseVisualStyleBackColor = true;
             this.btnDanhMuc.Click += new System.EventHandler(this.btnDanhMuc_Click);
-       
+            // 
+            // btnSach
+            // 
             this.btnSach.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold);
             this.btnSach.Location = new System.Drawing.Point(420, 110);
             this.btnSach.Name = "btnSach";
@@ -52,7 +58,9 @@
             this.btnSach.Text = "Quản lý đầu sách";
             this.btnSach.UseVisualStyleBackColor = true;
             this.btnSach.Click += new System.EventHandler(this.btnSach_Click);
-     
+            // 
+            // btnDocGia
+            // 
             this.btnDocGia.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold);
             this.btnDocGia.Location = new System.Drawing.Point(120, 200);
             this.btnDocGia.Name = "btnDocGia";
@@ -61,7 +69,9 @@
             this.btnDocGia.Text = "Độc giả và thẻ";
             this.btnDocGia.UseVisualStyleBackColor = true;
             this.btnDocGia.Click += new System.EventHandler(this.btnDocGia_Click);
-   
+            // 
+            // btnMuonTra
+            // 
             this.btnMuonTra.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold);
             this.btnMuonTra.Location = new System.Drawing.Point(420, 200);
             this.btnMuonTra.Name = "btnMuonTra";
@@ -70,7 +80,9 @@
             this.btnMuonTra.Text = "Mượn - Trả sách";
             this.btnMuonTra.UseVisualStyleBackColor = true;
             this.btnMuonTra.Click += new System.EventHandler(this.btnMuonTra_Click);
-  
+            // 
+            // btnThongKe
+            // 
             this.btnThongKe.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold);
             this.btnThongKe.Location = new System.Drawing.Point(120, 290);
             this.btnThongKe.Name = "btnThongKe";
@@ -79,7 +91,9 @@
             this.btnThongKe.Text = "Thống kê";
             this.btnThongKe.UseVisualStyleBackColor = true;
             this.btnThongKe.Click += new System.EventHandler(this.btnThongKe_Click);
-
+            // 
+            // btnThoat
+            // 
             this.btnThoat.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold);
             this.btnThoat.Location = new System.Drawing.Point(420, 290);
             this.btnThoat.Name = "btnThoat";
@@ -88,7 +102,9 @@
             this.btnThoat.Text = "Thoát";
             this.btnThoat.UseVisualStyleBackColor = true;
             this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click);
-  
+            // 
+            // FrmMain
+            // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(780, 411);
@@ -105,6 +121,7 @@
             this.Name = "FrmMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Quản lý thư viện";
+            this.Load += new System.EventHandler(this.FrmMain_Load);
             this.ResumeLayout(false);
 
         }

@@ -2,6 +2,7 @@
 using System.Data;
 using System.Data.SqlClient;
 using QuanLyThuVien.Data;
+using QuanLyThuVien.Models;
 
 namespace QuanLyThuVien.Services
 {

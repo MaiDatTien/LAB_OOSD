@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Windows.Forms;
+using QuanLyThuVien.Models;
 using QuanLyThuVien.Services;
 
 namespace QuanLyThuVien.Forms

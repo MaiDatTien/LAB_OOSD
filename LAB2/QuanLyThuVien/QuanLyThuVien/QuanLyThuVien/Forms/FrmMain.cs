@@ -17,5 +17,10 @@ namespace QuanLyThuVien.Forms
             if (MessageBox.Show("Bạn có thực sự muốn thoát chương trình?", "Xác nhận",
                 MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes) Close();
         }
+
+        private void FrmMain_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

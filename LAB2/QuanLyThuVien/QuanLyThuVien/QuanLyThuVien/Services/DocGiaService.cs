@@ -2,6 +2,7 @@
 using System.Data;
 using System.Data.SqlClient;
 using QuanLyThuVien.Data;
+using QuanLyThuVien.Models; 
 
 namespace QuanLyThuVien.Services
 {
@@ -77,7 +78,9 @@ namespace QuanLyThuVien.Services
                         off.ExecuteNonQuery();
                     }
 
-                    string maThe = "THE_" + maDocGia + "_" + DateTime.Now.ToString("yyyyMMddHHmmssfff");
+
+                    string maThe = "TH" + DateTime.Now.ToString("ddHHmmss");
+
                     using (SqlCommand ins = new SqlCommand(@"INSERT INTO TheDocGia(MaThe,MaDocGia,NgayCap,HanSuDung,DaDongLePhi,TrangThai) VALUES(@MaThe,@MaDG,@NgayCap,@Han,@LePhi,1)", cn, tx))
                     {
                         ins.Parameters.AddWithValue("@MaThe", maThe);
