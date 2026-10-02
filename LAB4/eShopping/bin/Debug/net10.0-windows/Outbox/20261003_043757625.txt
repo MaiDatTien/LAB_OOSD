@@ -1,0 +1,14 @@
+TO: ptd@gmail.com
+SUBJECT: Xác nhận đơn đặt hàng DH000001
+
+Cảm ơn DoPhung đã mua hàng tại e-Shopping.
+Số đơn: DH000001 - Thời điểm đặt: 03/10/2026 04:37
+Hình thức giao: THUONG
+Người nhận: DoPhung - 1234567890
+Địa chỉ nhận: 120YenLang
+--- Sản phẩm ---
+Máy ảnh compact X100 | SL 1 x 3,200,000 = 3,200,000
+Tiền hàng: 3,200,000
+Phí giao hàng: 15,000
+Phí thanh toán: 5,000
+TỔNG CỘNG: 3,220,000 đ
