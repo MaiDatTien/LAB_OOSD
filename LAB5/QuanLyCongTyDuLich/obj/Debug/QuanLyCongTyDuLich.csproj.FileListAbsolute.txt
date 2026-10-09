@@ -1,0 +1,7 @@
+D:\Ky1_26-27\PPPTPMHDT_Sat\Buoi5\QuanLyCongTyDuLich\bin\Debug\QuanLyCongTyDuLich.exe.config
+D:\Ky1_26-27\PPPTPMHDT_Sat\Buoi5\QuanLyCongTyDuLich\bin\Debug\QuanLyCongTyDuLich.exe
+D:\Ky1_26-27\PPPTPMHDT_Sat\Buoi5\QuanLyCongTyDuLich\bin\Debug\QuanLyCongTyDuLich.pdb
+D:\Ky1_26-27\PPPTPMHDT_Sat\Buoi5\QuanLyCongTyDuLich\obj\Debug\QuanLyCongTyDuLich.csproj.AssemblyReference.cache
+D:\Ky1_26-27\PPPTPMHDT_Sat\Buoi5\QuanLyCongTyDuLich\obj\Debug\QuanLyCongTyDuLich.csproj.CoreCompileInputs.cache
+D:\Ky1_26-27\PPPTPMHDT_Sat\Buoi5\QuanLyCongTyDuLich\obj\Debug\QuanLyCongTyDuLich.exe
+D:\Ky1_26-27\PPPTPMHDT_Sat\Buoi5\QuanLyCongTyDuLich\obj\Debug\QuanLyCongTyDuLich.pdb
