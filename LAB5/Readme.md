@@ -7,7 +7,7 @@ Tài liệu bài tập phân tích, thiết kế hướng đối tượng cho h�
 | Sinh viên | Mai Tiến Đạt |
 | MSSV | 1250080030 |
 | Học phần | Thực hành Phân tích Thiết kế Hướng Đối tượng |
-| Trường | Đại học Công nghệ TP. Hồ Chí Minh (HUTECH) |
+| Trường | Đại học Tài Nguyên và Môi Trường TP HCM(HCMUNRE) |
 | Công nghệ định hướng | C# WinForms, .NET Framework 4.7.2, SQL Server |
 
 ## Trạng thái gói bài
