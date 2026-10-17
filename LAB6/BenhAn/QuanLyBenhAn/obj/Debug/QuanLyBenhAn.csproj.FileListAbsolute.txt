@@ -1,0 +1,7 @@
+D:\Ky1_26-27\PPPTPMHDT_Sat\BenhAn\QuanLyBenhAn\bin\Debug\QuanLyBenhAn.exe.config
+D:\Ky1_26-27\PPPTPMHDT_Sat\BenhAn\QuanLyBenhAn\bin\Debug\QuanLyBenhAn.exe
+D:\Ky1_26-27\PPPTPMHDT_Sat\BenhAn\QuanLyBenhAn\bin\Debug\QuanLyBenhAn.pdb
+D:\Ky1_26-27\PPPTPMHDT_Sat\BenhAn\QuanLyBenhAn\obj\Debug\QuanLyBenhAn.csproj.AssemblyReference.cache
+D:\Ky1_26-27\PPPTPMHDT_Sat\BenhAn\QuanLyBenhAn\obj\Debug\QuanLyBenhAn.csproj.CoreCompileInputs.cache
+D:\Ky1_26-27\PPPTPMHDT_Sat\BenhAn\QuanLyBenhAn\obj\Debug\QuanLyBenhAn.exe
+D:\Ky1_26-27\PPPTPMHDT_Sat\BenhAn\QuanLyBenhAn\obj\Debug\QuanLyBenhAn.pdb
