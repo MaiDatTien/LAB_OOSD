@@ -334,15 +334,14 @@ Cài thêm thành phần *SQL Server Express LocalDB* trong Visual Studio Instal
 
 ## 📄 Giấy phép & Tác giả
 
-Dự án phục vụ mục đích **học tập** trong khuôn khổ môn OOAD – HUTECH.
+Dự án phục vụ mục đích **học tập** trong khuôn khổ môn.
 
 <!-- Thay thông tin bên dưới bằng thông tin của nhóm/bạn -->
-**Nhóm thực hiện:** _Họ tên – MSSV_ · **Giảng viên hướng dẫn:** _Tên giảng viên_
+**Nhóm thực hiện:** Mai Tiến Đạt - 1250080030·
 
 ---
 
 <div align="center">
 
-⭐ Nếu thấy dự án hữu ích, hãy để lại một ngôi sao nhé!
 
 </div>
