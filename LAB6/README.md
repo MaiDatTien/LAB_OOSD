@@ -2,7 +2,7 @@
 
 Hệ thống quản lý phòng khám trọn quy trình: tiếp nhận, khám, xét nghiệm, toa thuốc, thanh toán, thống kê.
 
-Đồ án môn Phân tích & Thiết kế hướng đối tượng (OOAD) - Bài 5 - HUTECH
+Đồ án môn Phân tích & Thiết kế hướng đối tượng (OOAD) 
 
 Công nghệ: .NET Framework 4.7.2, C# WinForms, SQL Server LocalDB, Visual Studio 2022.
 
