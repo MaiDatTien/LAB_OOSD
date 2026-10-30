@@ -1,0 +1,7 @@
+D:\Ky1_26-27\PPPTPMHDT_Sat\QuanLyNhanSu\QuanLyNhanSu\bin\Debug\QuanLyNhanSu.exe.config
+D:\Ky1_26-27\PPPTPMHDT_Sat\QuanLyNhanSu\QuanLyNhanSu\bin\Debug\QuanLyNhanSu.exe
+D:\Ky1_26-27\PPPTPMHDT_Sat\QuanLyNhanSu\QuanLyNhanSu\bin\Debug\QuanLyNhanSu.pdb
+D:\Ky1_26-27\PPPTPMHDT_Sat\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.csproj.AssemblyReference.cache
+D:\Ky1_26-27\PPPTPMHDT_Sat\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.csproj.CoreCompileInputs.cache
+D:\Ky1_26-27\PPPTPMHDT_Sat\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.exe
+D:\Ky1_26-27\PPPTPMHDT_Sat\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.pdb
