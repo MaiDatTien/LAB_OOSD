@@ -1,0 +1,158 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="7ajBhtYQ3nohme25NK4w" name="Page-1">
+    <mxGraphModel dx="1776" dy="969" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lbl_col_boundary" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontStyle=1;fontSize=11;" value="GIAO DIỆN &lt;&lt;boundary&gt;&gt;" vertex="1">
+          <mxGeometry height="20" width="190" x="40" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="lbl_col_control" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontStyle=1;fontSize=11;" value="DỊCH VỤ &lt;&lt;control&gt;&gt;" vertex="1">
+          <mxGeometry height="20" width="200" x="310" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="lbl_col_entity" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontStyle=1;fontSize=11;" value="DỮ LIỆU NGHIỆP VỤ &lt;&lt;entity&gt;&gt;" vertex="1">
+          <mxGeometry height="20" width="240" x="560" y="75" as="geometry" />
+        </mxCell>
+        <mxCell id="c_frmtour" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" value="FrmTour&#xa;&lt;&lt;boundary&gt;&gt;" vertex="1">
+          <mxGeometry height="235" width="200" x="40" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="c_frmtour_attr" parent="c_frmtour" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="—" vertex="1">
+          <mxGeometry height="25" width="200" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c_frmtour_sep" parent="c_frmtour" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="8" width="200" y="65" as="geometry" />
+        </mxCell>
+        <mxCell id="c_frmtour_meth" parent="c_frmtour" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=8;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="Form_Load()&#xa;TaiTour()&#xa;TaiChiTiet()&#xa;btnThemTour_Click()&#xa;btnThemDD_Click()&#xa;btnThemChang_Click()&#xa;btnThemTQ_Click()" vertex="1">
+          <mxGeometry height="162" width="200" y="73" as="geometry" />
+        </mxCell>
+        <mxCell id="c_tourservice" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" value="TourService&#xa;&lt;&lt;control&gt;&gt;" vertex="1">
+          <mxGeometry height="235" width="215" x="295" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="c_tourservice_attr" parent="c_tourservice" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="—" vertex="1">
+          <mxGeometry height="25" width="215" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c_tourservice_sep" parent="c_tourservice" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="8" width="215" y="65" as="geometry" />
+        </mxCell>
+        <mxCell id="c_tourservice_meth" parent="c_tourservice" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=8;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="LayTour()&#xa;LayTourMoBan()&#xa;ThemTour()&#xa;ThemDiemDung()&#xa;ThemChang()&#xa;ThemDiemTQTour()" vertex="1">
+          <mxGeometry height="162" width="215" y="73" as="geometry" />
+        </mxCell>
+        <mxCell id="c_danhmucservice" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" value="DanhMucService&#xa;&lt;&lt;control&gt;&gt;" vertex="1">
+          <mxGeometry height="220" width="215" x="295" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="c_danhmucservice_attr" parent="c_danhmucservice" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="—" vertex="1">
+          <mxGeometry height="25" width="215" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c_danhmucservice_sep" parent="c_danhmucservice" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="8" width="215" y="65" as="geometry" />
+        </mxCell>
+        <mxCell id="c_danhmucservice_meth" parent="c_danhmucservice" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=8;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="LayPhuongTien()&#xa;LayDiemBan()&#xa;LayHDV()&#xa;LayDiemThamQuan()&#xa;Them...()" vertex="1">
+          <mxGeometry height="147" width="215" y="73" as="geometry" />
+        </mxCell>
+        <mxCell id="c_tour" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" value="Tour&#xa;&lt;&lt;entity&gt;&gt;" vertex="1">
+          <mxGeometry height="340" width="205" x="555" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="c_tour_attr" parent="c_tour" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=8;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="MaTour: String&#xa;TenTour: String&#xa;SoNgay: Integer&#xa;SoDem: Integer&#xa;DonGiaKhach: Decimal&#xa;MoTa: String&#xa;DangMoBan: Boolean" vertex="1">
+          <mxGeometry height="140" width="205" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c_tour_sep" parent="c_tour" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="8" width="205" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="c_tour_meth" parent="c_tour" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=8;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="themTour()&#xa;themDiemDung()&#xa;ganPhuongTien()&#xa;ganDiemThamQuan()&#xa;laySoNgay()" vertex="1">
+          <mxGeometry height="152" width="205" y="188" as="geometry" />
+        </mxCell>
+        <mxCell id="c_diemdung" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" value="DiemDung&#xa;&lt;&lt;entity&gt;&gt;" vertex="1">
+          <mxGeometry height="235" width="205" x="785" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="c_diemdung_attr" parent="c_diemdung" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=8;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="ThuTu: Integer&#xa;TenDiemDung: String&#xa;DoiPhuongTien: Boolean&#xa;CoNoiAn: Boolean&#xa;CoKhachSan: Boolean&#xa;HangSaoKhachSan: Integer" vertex="1">
+          <mxGeometry height="140" width="205" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c_diemdung_sep" parent="c_diemdung" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="8" width="205" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="c_diemdung_meth" parent="c_diemdung" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="—" vertex="1">
+          <mxGeometry height="47" width="205" y="188" as="geometry" />
+        </mxCell>
+        <mxCell id="c_changpt" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" value="ChangPhuongTien&#xa;&lt;&lt;entity&gt;&gt;" vertex="1">
+          <mxGeometry height="155" width="205" x="555" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="c_changpt_attr" parent="c_changpt" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=8;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="ThuTuChang: Integer&#xa;GhiChu: String" vertex="1">
+          <mxGeometry height="50" width="205" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c_changpt_sep" parent="c_changpt" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="8" width="205" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="c_changpt_meth" parent="c_changpt" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="—" vertex="1">
+          <mxGeometry height="57" width="205" y="98" as="geometry" />
+        </mxCell>
+        <mxCell id="c_tourdiemtq" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" value="TourDiemThamQuan&#xa;&lt;&lt;entity&gt;&gt;" vertex="1">
+          <mxGeometry height="140" width="205" x="785" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="c_tourdiemtq_attr" parent="c_tourdiemtq" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=8;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="ThuTu: Integer" vertex="1">
+          <mxGeometry height="35" width="205" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c_tourdiemtq_sep" parent="c_tourdiemtq" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="8" width="205" y="75" as="geometry" />
+        </mxCell>
+        <mxCell id="c_tourdiemtq_meth" parent="c_tourdiemtq" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="—" vertex="1">
+          <mxGeometry height="57" width="205" y="83" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_frm_trunk" edge="1" parent="1" source="c_frmtour" style="endArrow=none;html=1;strokeColor=#000000;rounded=0;exitX=1;exitY=0.55;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="265" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_frm_tourservice" edge="1" parent="1" style="endArrow=classic;html=1;strokeColor=#000000;rounded=0;entryX=0;entryY=0.55;entryDx=0;entryDy=0;" target="c_tourservice">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="265" y="309" />
+            </Array>
+            <mxPoint x="265" y="510" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_frm_danhmucservice" edge="1" parent="1" style="endArrow=classic;html=1;strokeColor=#000000;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="c_danhmucservice">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="265" y="730" />
+            </Array>
+            <mxPoint x="265" y="510" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_tourservice_tour" edge="1" parent="1" source="c_tourservice" style="endArrow=classic;html=1;strokeColor=#000000;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="c_tour">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_tourservice_overhead" edge="1" parent="1" style="endArrow=classic;html=1;strokeColor=#000000;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="c_diemdung">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="530" y="105" />
+              <mxPoint x="775" y="105" />
+              <mxPoint x="775" y="242" />
+            </Array>
+            <mxPoint x="530" y="298" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_overhead_tourdiemtq" edge="1" parent="1" style="endArrow=classic;html=1;strokeColor=#000000;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="c_tourdiemtq">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="775" y="660" />
+            </Array>
+            <mxPoint x="775" y="242" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_trunk_changpt" edge="1" parent="1" style="endArrow=classic;html=1;strokeColor=#000000;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="c_changpt">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="530" y="668" />
+            </Array>
+            <mxPoint x="530" y="298" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_danhmuc_changpt" edge="1" parent="1" source="c_danhmucservice" style="endArrow=none;html=1;strokeColor=#000000;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;">
+          <mxGeometry relative="1" x="-0.0007" as="geometry">
+            <mxPoint x="530" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

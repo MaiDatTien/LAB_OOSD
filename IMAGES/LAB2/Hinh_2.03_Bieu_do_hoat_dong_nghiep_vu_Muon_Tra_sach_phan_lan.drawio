@@ -1,0 +1,86 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="MeteF2FheEzCgs244Ldf" name="Page-1">
+    <mxGraphModel dx="1493" dy="814" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lane1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontStyle=1;fontSize=13;" value="ĐỘC GIẢ" vertex="1">
+          <mxGeometry height="45" width="240" x="40" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lane2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontStyle=1;fontSize=13;" value="THỦ THƯ" vertex="1">
+          <mxGeometry height="45" width="310" x="320" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lane3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontStyle=1;fontSize=13;" value="HỆ THỐNG PHẦN MỀM" vertex="1">
+          <mxGeometry height="45" width="320" x="670" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="node_start" parent="1" style="ellipse;fillColor=none;strokeColor=#000000;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="145" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="act_yeucau" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=12;" value="Xuất trình thẻ &amp; yêu cầu&#xa;mượn (tối đa 3 cuốn)" vertex="1">
+          <mxGeometry height="55" width="220" x="50" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="act_nhapthongtin" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=12;" value="Nhập thông tin thẻ &amp; chọn&#xa;các đầu sách mượn" vertex="1">
+          <mxGeometry height="55" width="220" x="365" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="act_kiemtra" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=12;" value="Kiểm tra hạn thẻ, lệ phí,&#xa;sách quá hạn &amp; số lượng tồn" vertex="1">
+          <mxGeometry height="60" width="240" x="710" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="dec_hople" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=12;" value="Hợp lệ &amp; còn sách?" vertex="1">
+          <mxGeometry height="60" width="180" x="740" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="act_tuchoi" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=12;" value="Thông báo nguyên nhân từ chối&#xa;cho độc giả" vertex="1">
+          <mxGeometry height="55" width="230" x="365" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="act_taophieu" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=12;" value="Tạo phiếu mượn &amp; chi tiết&#xa;giảm tồn kho trong transaction" vertex="1">
+          <mxGeometry height="60" width="240" x="710" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="node_end1" parent="1" style="ellipse;shape=endState;fillColor=#000000;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="145" y="392.5" as="geometry" />
+        </mxCell>
+        <mxCell id="act_inphieu" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=12;" value="In phiếu mượn &amp; giao sách&#xa;cho độc giả" vertex="1">
+          <mxGeometry height="55" width="230" x="365" y="485" as="geometry" />
+        </mxCell>
+        <mxCell id="act_nhansach" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=12;" value="Nhận sách &amp; phiếu mượn&#xa;ký xác nhận" vertex="1">
+          <mxGeometry height="55" width="220" x="50" y="485" as="geometry" />
+        </mxCell>
+        <mxCell id="node_end2" parent="1" style="ellipse;shape=endState;fillColor=#000000;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="145" y="585" as="geometry" />
+        </mxCell>
+        <mxCell id="e_start_yc" edge="1" parent="1" source="node_start" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;" target="act_yeucau">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_yc_nhap" edge="1" parent="1" source="act_yeucau" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;" target="act_nhapthongtin">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_nhap_kt" edge="1" parent="1" source="act_nhapthongtin" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;" target="act_kiemtra">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_kt_dec" edge="1" parent="1" source="act_kiemtra" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;" target="dec_hople">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_dec_tuchoi" edge="1" parent="1" source="dec_hople" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelPosition=left;verticalLabelPosition=top;align=right;verticalAlign=bottom;" target="act_tuchoi" value="[Không]">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-15" y="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_dec_taophieu" edge="1" parent="1" source="dec_hople" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;align=center;verticalAlign=bottom;" target="act_taophieu" value="[Hợp lệ]">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_tuchoi_end1" edge="1" parent="1" source="act_tuchoi" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;" target="node_end1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_taophieu_inphieu" edge="1" parent="1" source="act_taophieu" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;exitX=0;exitY=0.8;exitDx=0;exitDy=0;entryX=1;entryY=0.2;entryDx=0;entryDy=0;" target="act_inphieu">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_inphieu_nhansach" edge="1" parent="1" source="act_inphieu" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;" target="act_nhansach">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_nhansach_end2" edge="1" parent="1" source="act_nhansach" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;" target="node_end2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

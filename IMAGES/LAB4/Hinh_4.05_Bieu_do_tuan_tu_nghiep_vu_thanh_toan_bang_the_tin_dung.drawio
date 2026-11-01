@@ -1,0 +1,91 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="bAr1Yvw_3yugastfAAsQ" name="Page-1">
+    <mxGraphModel dx="1776" dy="969" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ll_khachhang" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=none;strokeColor=#000000;size=40;fontStyle=1;dashed=1;" value="Khách hàng" vertex="1">
+          <mxGeometry height="660" width="150" x="30" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ll_frm" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=none;strokeColor=#000000;size=40;fontStyle=1;dashed=1;" value="FrmThanhToan" vertex="1">
+          <mxGeometry height="660" width="150" x="220" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ll_service" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=none;strokeColor=#000000;size=40;fontStyle=1;dashed=1;" value="ThanhToanService" vertex="1">
+          <mxGeometry height="660" width="150" x="440" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ll_congtt" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=none;strokeColor=#000000;size=40;fontStyle=1;dashed=1;" value="Cổng thanh toán" vertex="1">
+          <mxGeometry height="660" width="150" x="660" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ll_db" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=none;strokeColor=#000000;size=40;fontStyle=1;dashed=1;" value="SQL Server DB" vertex="1">
+          <mxGeometry height="660" width="150" x="860" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="msg_1" edge="1" parent="1" style="endArrow=block;endFill=1;html=1;strokeColor=#000000;verticalAlign=bottom;" value="1: ChonLoaiPhieu(maLoaiPhieu)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="105" y="120" as="sourcePoint" />
+            <mxPoint x="295" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg_2" edge="1" parent="1" style="endArrow=block;endFill=1;html=1;strokeColor=#000000;verticalAlign=bottom;" value="2: TinhTongTriGia(gioHang)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="295" y="175" as="sourcePoint" />
+            <mxPoint x="515" y="175" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg_3" edge="1" parent="1" style="endArrow=block;endFill=1;html=1;strokeColor=#000000;verticalAlign=bottom;" value="3: KiemTraThe(thongTinThe)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="515" y="230" as="sourcePoint" />
+            <mxPoint x="735" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg_4" edge="1" parent="1" style="endArrow=open;dashed=1;html=1;strokeColor=#000000;verticalAlign=bottom;" value="4: KetQuaKiemTra">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="735" y="285" as="sourcePoint" />
+            <mxPoint x="515" y="285" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg_5" edge="1" parent="1" style="endArrow=open;dashed=1;html=1;strokeColor=#000000;verticalAlign=bottom;" value="5: HienThiPhiVaTongThanhToan">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="515" y="340" as="sourcePoint" />
+            <mxPoint x="295" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg_6" edge="1" parent="1" style="endArrow=block;endFill=1;html=1;strokeColor=#000000;verticalAlign=bottom;" value="6: XacNhanDatHang()">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="105" y="395" as="sourcePoint" />
+            <mxPoint x="295" y="395" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg_7" edge="1" parent="1" style="endArrow=block;endFill=1;html=1;strokeColor=#000000;verticalAlign=bottom;" value="7: TaoDonHang(donHang, the)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="295" y="450" as="sourcePoint" />
+            <mxPoint x="515" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg_8" edge="1" parent="1" style="endArrow=block;endFill=1;html=1;strokeColor=#000000;verticalAlign=bottom;" value="8: INSERT DonDatHang, ChiTietDonHang">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="515" y="505" as="sourcePoint" />
+            <mxPoint x="935" y="505" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg_9" edge="1" parent="1" style="endArrow=block;endFill=1;html=1;strokeColor=#000000;verticalAlign=bottom;" value="9: INSERT ThanhToan">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="515" y="560" as="sourcePoint" />
+            <mxPoint x="935" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg_10" edge="1" parent="1" style="endArrow=open;dashed=1;html=1;strokeColor=#000000;verticalAlign=bottom;" value="10: KetQuaXuLy.Ok(maDonHang)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="515" y="615" as="sourcePoint" />
+            <mxPoint x="295" y="615" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg_11" edge="1" parent="1" style="endArrow=open;dashed=1;html=1;strokeColor=#000000;verticalAlign=bottom;" value="11: Gui email xac nhan dat hang">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="295" y="670" as="sourcePoint" />
+            <mxPoint x="105" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

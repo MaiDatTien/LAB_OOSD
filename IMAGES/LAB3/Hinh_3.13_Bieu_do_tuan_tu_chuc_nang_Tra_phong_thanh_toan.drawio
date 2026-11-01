@@ -1,0 +1,70 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="qNZJHUqGvRowUeOyLxx-" name="Page-1">
+    <mxGraphModel dx="1493" dy="814" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ll_nvthanhtoan" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=none;strokeColor=#000000;size=40;fontStyle=1;dashed=1;" value="NV Thanh toán" vertex="1">
+          <mxGeometry height="540" width="160" x="40" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ll_frm" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=none;strokeColor=#000000;size=40;fontStyle=1;dashed=1;" value="FrmTraPhong" vertex="1">
+          <mxGeometry height="540" width="170" x="275" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ll_service" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=none;strokeColor=#000000;size=40;fontStyle=1;dashed=1;" value="TraPhongService" vertex="1">
+          <mxGeometry height="540" width="180" x="525" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ll_db" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=none;strokeColor=#000000;size=40;fontStyle=1;dashed=1;" value="SQL Server DB" vertex="1">
+          <mxGeometry height="540" width="160" x="785" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="msg_1" edge="1" parent="1" style="endArrow=block;endFill=1;html=1;strokeColor=#000000;verticalAlign=bottom;" value="1: Chọn phiếu đặt &amp; kiểm tra đền bù">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="130" as="sourcePoint" />
+            <mxPoint x="360" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg_2" edge="1" parent="1" style="endArrow=block;endFill=1;html=1;strokeColor=#000000;verticalAlign=bottom;" value="2: LapHoaDon(soPhieu, soNgay)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="190" as="sourcePoint" />
+            <mxPoint x="615" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg_3" edge="1" parent="1" style="endArrow=block;endFill=1;html=1;strokeColor=#000000;verticalAlign=bottom;" value="3: Tổng hợp tiền phòng + DV + đền bù">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="615" y="250" as="sourcePoint" />
+            <mxPoint x="865" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg_4" edge="1" parent="1" style="endArrow=block;endFill=1;html=1;strokeColor=#000000;verticalAlign=bottom;" value="4: Nhập phương thức &amp; tiền trả">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="310" as="sourcePoint" />
+            <mxPoint x="615" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg_5" edge="1" parent="1" style="endArrow=block;endFill=1;html=1;strokeColor=#000000;verticalAlign=bottom;" value="5: Ghi nhận thanh toán vào DB">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="615" y="370" as="sourcePoint" />
+            <mxPoint x="865" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg_6" edge="1" parent="1" style="endArrow=block;endFill=1;html=1;strokeColor=#000000;verticalAlign=bottom;" value="6: Cập nhật phòng = Trống">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="615" y="430" as="sourcePoint" />
+            <mxPoint x="865" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg_7" edge="1" parent="1" style="endArrow=open;dashed=1;html=1;strokeColor=#000000;verticalAlign=bottom;" value="7: Hoàn tất thanh toán">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="865" y="490" as="sourcePoint" />
+            <mxPoint x="615" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg_8" edge="1" parent="1" style="endArrow=block;endFill=1;html=1;strokeColor=#000000;verticalAlign=bottom;" value="8: In biên lai &amp; hóa đơn">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="550" as="sourcePoint" />
+            <mxPoint x="120" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

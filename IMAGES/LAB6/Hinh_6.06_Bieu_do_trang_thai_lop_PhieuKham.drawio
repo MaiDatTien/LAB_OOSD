@@ -1,0 +1,55 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="qjpfWu-AoEMoyhO_32XE" name="Page-1">
+    <mxGraphModel dx="1493" dy="814" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="node_start" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="40" y="135" as="geometry" />
+        </mxCell>
+        <mxCell id="state_dangkham" parent="1" style="rounded=1;arcSize=40;whiteSpace=wrap;html=1;fontStyle=0;fontSize=14;" value="Đang khám" vertex="1">
+          <mxGeometry height="60" width="120" x="250" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="state_chothanhtoan" parent="1" style="rounded=1;arcSize=40;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontStyle=0;fontSize=14;" value="Chờ thanh toán" vertex="1">
+          <mxGeometry height="60" width="130" x="580" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="state_hoantat" parent="1" style="rounded=1;arcSize=40;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontStyle=0;fontSize=14;" value="Hoàn tất" vertex="1">
+          <mxGeometry height="60" width="120" x="930" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="node_end" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="40" width="40" x="1120" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="node_end_inner" parent="node_end" style="ellipse;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="24" width="24" x="8" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_1" edge="1" parent="1" source="node_start" style="endArrow=classic;html=1;strokeColor=#000000;strokeWidth=1.5;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="state_dangkham">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="label_1" connectable="0" parent="edge_1" style="edgeLabel;html=1;align=center;verticalAlign=bottom;resizable=0;points=[];fontSize=13;strokeColor=none;fillColor=none;" value="TaoPhieuKham()&#xa;[hồ sơ còn hạn]" vertex="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_2" edge="1" parent="1" source="state_dangkham" style="endArrow=classic;html=1;strokeColor=#000000;strokeWidth=1.5;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="state_chothanhtoan">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="label_2" connectable="0" parent="edge_2" style="edgeLabel;html=1;align=center;verticalAlign=bottom;resizable=0;points=[];fontSize=13;strokeColor=none;fillColor=none;" value="KetLuan()&#xa;[điều trị phải có triệu chứng]" vertex="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_3" edge="1" parent="1" source="state_chothanhtoan" style="endArrow=classic;html=1;strokeColor=#000000;strokeWidth=1.5;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="state_hoantat">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="label_3" connectable="0" parent="edge_3" style="edgeLabel;html=1;align=center;verticalAlign=bottom;resizable=0;points=[];fontSize=13;strokeColor=none;fillColor=none;" value="HoanTat()&#xa;[hóa đơn đã thanh toán đủ]" vertex="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_4" edge="1" parent="1" source="state_hoantat" style="endArrow=classic;html=1;strokeColor=#000000;strokeWidth=1.5;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="node_end">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

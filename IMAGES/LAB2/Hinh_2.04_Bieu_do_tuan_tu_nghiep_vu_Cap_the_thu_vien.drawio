@@ -1,0 +1,70 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="IWnKi_7fsHQcEjrVL4cS" name="Page-1">
+    <mxGraphModel dx="1241" dy="677" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ll_thuthu" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=none;strokeColor=#000000;size=40;fontStyle=1;dashed=1;" value="Thủ thư" vertex="1">
+          <mxGeometry height="520" width="160" x="40" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ll_frm" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=none;strokeColor=#000000;size=40;fontStyle=1;dashed=1;" value="FrmDocGia (UI)" vertex="1">
+          <mxGeometry height="530" width="180" x="280" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ll_service" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=none;strokeColor=#000000;size=40;fontStyle=1;dashed=1;" value="DocGiaService" vertex="1">
+          <mxGeometry height="520" width="180" x="540" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ll_db" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=none;strokeColor=#000000;size=40;fontStyle=1;dashed=1;" value="SQL Server DB" vertex="1">
+          <mxGeometry height="520" width="170" x="790" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="msg_1" edge="1" parent="1" style="endArrow=block;endFill=1;html=1;strokeColor=#000000;verticalAlign=bottom;" value="1: Nhập thông tin &amp; ảnh 3x4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="130" as="sourcePoint" />
+            <mxPoint x="370" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg_2" edge="1" parent="1" style="endArrow=block;endFill=1;html=1;strokeColor=#000000;verticalAlign=bottom;" value="2: ThemDocGia(dg, the)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="190" as="sourcePoint" />
+            <mxPoint x="630" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg_3" edge="1" parent="1" style="endArrow=block;endFill=1;html=1;strokeColor=#000000;verticalAlign=bottom;" value="3: KiemTraTheHoatDong()">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="630" y="250" as="sourcePoint" />
+            <mxPoint x="875" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg_4" edge="1" parent="1" style="endArrow=open;dashed=1;html=1;strokeColor=#000000;verticalAlign=bottom;" value="4: Kết quả (chưa có thẻ)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="875" y="310" as="sourcePoint" />
+            <mxPoint x="630" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg_5" edge="1" parent="1" style="endArrow=block;endFill=1;html=1;strokeColor=#000000;verticalAlign=bottom;" value="5: INSERT DocGia &amp; The">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="630" y="370" as="sourcePoint" />
+            <mxPoint x="875" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg_6" edge="1" parent="1" style="endArrow=open;dashed=1;html=1;strokeColor=#000000;verticalAlign=bottom;" value="6: Trả về thành công">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="875" y="430" as="sourcePoint" />
+            <mxPoint x="630" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg_7" edge="1" parent="1" style="endArrow=open;dashed=1;html=1;strokeColor=#000000;verticalAlign=bottom;" value="7: KetQuaXuLy.Ok()">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="630" y="490" as="sourcePoint" />
+            <mxPoint x="370" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg_8" edge="1" parent="1" style="endArrow=block;endFill=1;html=1;strokeColor=#000000;verticalAlign=bottom;" value="8: MessageBox thành công">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="550" as="sourcePoint" />
+            <mxPoint x="120" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

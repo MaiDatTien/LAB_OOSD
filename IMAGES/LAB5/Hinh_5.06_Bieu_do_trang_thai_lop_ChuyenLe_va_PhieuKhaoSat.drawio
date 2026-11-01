@@ -1,0 +1,40 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="ocJtApgNzXCZCxYryR92" name="Page-1">
+    <mxGraphModel dx="1030" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="state_cl_mo" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="ChuyenLe: Mở đăng ký" vertex="1">
+          <mxGeometry height="60" width="220" x="40" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="state_cl_dong" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="ChuyenLe: Đóng đăng ký" vertex="1">
+          <mxGeometry height="60" width="220" x="350" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="state_cl_thuchien" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="ChuyenLe: Đã thực hiện" vertex="1">
+          <mxGeometry height="60" width="220" x="660" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_cl_1" edge="1" parent="1" source="state_cl_mo" style="endArrow=classic;html=1;strokeColor=#000000;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;verticalAlign=bottom;" target="state_cl_dong" value="Hết chỗ / đến ngày">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_cl_2" edge="1" parent="1" source="state_cl_dong" style="endArrow=classic;html=1;strokeColor=#000000;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;verticalAlign=bottom;" target="state_cl_thuchien" value="Chuyến khởi hành">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="state_ks_gui" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="PhieuKhaoSat: Đã gửi" vertex="1">
+          <mxGeometry height="60" width="230" x="40" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="state_ks_phanhoi" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="PhieuKhaoSat: Đã phản hồi" vertex="1">
+          <mxGeometry height="60" width="230" x="350" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="state_ks_quahan" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="PhieuKhaoSat: Quá hạn (30 ngày)" vertex="1">
+          <mxGeometry height="60" width="230" x="350" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_ks_1" edge="1" parent="1" source="state_ks_gui" style="endArrow=classic;html=1;strokeColor=#000000;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;verticalAlign=bottom;" target="state_ks_phanhoi" value="Khách góp ý">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_ks_2" edge="1" parent="1" source="state_ks_gui" style="endArrow=classic;html=1;strokeColor=#000000;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;verticalAlign=bottom;" target="state_ks_quahan" value="Hết hạn">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

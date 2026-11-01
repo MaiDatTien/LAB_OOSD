@@ -1,0 +1,52 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="lYGFMlkfMXfByO_R2rl0" name="Page-1">
+    <mxGraphModel dx="1493" dy="814" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="boundary" parent="1" style="shape=rect;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingLeft=15;spacingTop=10;fontStyle=1;fillColor=none;strokeColor=#000000;" value="Phân rã: Trả phòng - thanh toán" vertex="1">
+          <mxGeometry height="525" width="770" x="150" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="actor_thanhtoan" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=none;strokeColor=#000000;" value="NV Thanh toán" vertex="1">
+          <mxGeometry height="60" width="30" x="45" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_kiemtra" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="Kiểm tra tình trạng tiện nghi" vertex="1">
+          <mxGeometry height="50" width="240" x="185" y="135" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_lapphieu" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="Lập phiếu đền bù hư hỏng" vertex="1">
+          <mxGeometry height="50" width="240" x="360" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_tonghop" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="Tổng hợp hóa đơn (Phòng + DV)" vertex="1">
+          <mxGeometry height="50" width="240" x="360" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_ghinhan" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="Ghi nhận thanh toán đa phương&#xa;thức" vertex="1">
+          <mxGeometry height="50" width="240" x="460" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_hoantat" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="Hoàn tất trả phòng (Check-out)" vertex="1">
+          <mxGeometry height="50" width="240" x="210" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_khautru" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="Khấu trừ tiền đặt cọc" vertex="1">
+          <mxGeometry height="50" width="230" x="680" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_act_uc1" edge="1" parent="1" source="actor_thanhtoan" style="endArrow=none;html=1;strokeColor=#000000;" target="uc_kiemtra">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_act_uc2" edge="1" parent="1" source="actor_thanhtoan" style="endArrow=none;html=1;strokeColor=#000000;" target="uc_lapphieu">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_act_uc3" edge="1" parent="1" source="actor_thanhtoan" style="endArrow=none;html=1;strokeColor=#000000;" target="uc_tonghop">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_act_uc4" edge="1" parent="1" source="actor_thanhtoan" style="endArrow=none;html=1;strokeColor=#000000;" target="uc_ghinhan">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_act_uc5" edge="1" parent="1" source="actor_thanhtoan" style="endArrow=none;html=1;strokeColor=#000000;" target="uc_hoantat">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_include" edge="1" parent="1" source="uc_tonghop" style="endArrow=open;endSize=12;dashed=1;html=1;strokeColor=#000000;verticalAlign=bottom;align=center;" target="uc_khautru" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

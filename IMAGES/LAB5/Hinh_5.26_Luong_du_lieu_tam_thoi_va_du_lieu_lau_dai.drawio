@@ -1,0 +1,51 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="t9RFkIm0m_vjViuuZiPl" name="Page-1">
+    <mxGraphModel dx="1776" dy="969" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=16;" value="Luồng dữ liệu tạm thời và dữ liệu lâu dài" vertex="1">
+          <mxGeometry height="30" width="400" x="350" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="box_tamthoi" parent="1" style="shape=rect;dashed=1;dashPattern=8 8;strokeWidth=1.5;strokeColor=#000000;fillColor=none;align=left;verticalAlign=top;spacingLeft=15;spacingTop=12;fontStyle=1;fontSize=12;" value="DỮ LIỆU TẠM THỜI" vertex="1">
+          <mxGeometry height="175" width="1040" x="30" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="node_form" parent="1" style="rounded=1;arcSize=18;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=12;align=center;" value="Form đang nhập&#xa;phiếu lẻ / phiếu đoàn&#xa;(chưa bấm Lưu)" vertex="1">
+          <mxGeometry height="85" width="265" x="58" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="node_service" parent="1" style="rounded=1;arcSize=18;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=12;align=center;" value="Service kiểm tra&#xa;quy tắc và tính toán&#xa;(chưa ghi CSDL)" vertex="1">
+          <mxGeometry height="85" width="265" x="418" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="node_boloc" parent="1" style="rounded=1;arcSize=18;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=12;align=center;" value="Bộ lọc, lựa chọn&#xa;và kết quả tra cứu&#xa;(có thể tải lại)" vertex="1">
+          <mxGeometry height="85" width="265" x="778" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="node_transaction" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontStyle=1;fontSize=12;align=center;spacing=8;" value="Lưu / Duyệt&#xa;BEGIN TRANSACTION&#xa;Kiểm tra lại dữ liệu trước khi ghi" vertex="1">
+          <mxGeometry height="110" width="380" x="360" y="325" as="geometry" />
+        </mxCell>
+        <mxCell id="node_rollback" parent="1" style="rounded=1;arcSize=18;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=12;align=center;" value="Nếu lỗi:&#xa;ROLLBACK&#xa;Giữ bản nháp ở Form" vertex="1">
+          <mxGeometry height="105" width="235" x="800" y="315" as="geometry" />
+        </mxCell>
+        <mxCell id="box_laudai" parent="1" style="shape=rect;dashed=1;dashPattern=8 8;strokeWidth=1.5;strokeColor=#000000;fillColor=none;align=left;verticalAlign=top;spacingLeft=15;spacingTop=12;fontStyle=1;fontSize=12;" value="DỮ LIỆU LÂU DÀI — SQL SERVER" vertex="1">
+          <mxGeometry height="165" width="1040" x="30" y="505" as="geometry" />
+        </mxCell>
+        <mxCell id="node_sqldatabase" parent="1" style="rounded=1;arcSize=18;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=12;align=center;" value="Tour, hành trình, chuyến, đăng ký, thành viên đoàn, phân công, thanh toán, khảo sát và dữ liệu HDV để tính lương" vertex="1">
+          <mxGeometry height="75" width="945" x="65" y="555" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_form_service" edge="1" parent="1" source="node_form" style="endArrow=classic;html=1;strokeColor=#000000;strokeWidth=1.2;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="node_service">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_service_trans" edge="1" parent="1" source="node_service" style="endArrow=classic;html=1;strokeColor=#000000;strokeWidth=1.2;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="node_transaction">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_trans_rollback" edge="1" parent="1" source="node_transaction" style="endArrow=classic;html=1;strokeColor=#000000;strokeWidth=1.2;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="node_rollback">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_trans_commit" edge="1" parent="1" source="node_transaction" style="endArrow=classic;html=1;strokeColor=#000000;strokeWidth=1.2;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.513;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=11;verticalAlign=bottom;align=left;" target="node_sqldatabase" value="COMMIT khi hợp lệ">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="10" y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

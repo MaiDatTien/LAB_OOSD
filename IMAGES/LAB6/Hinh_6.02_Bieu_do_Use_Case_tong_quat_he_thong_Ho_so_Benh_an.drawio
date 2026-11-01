@@ -1,0 +1,85 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="28yNzVhDmpaT8ixK6pS9" name="Page-1">
+    <mxGraphModel dx="3679" dy="2007" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="boundary" parent="1" style="shape=rect;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingLeft=15;spacingTop=10;fontStyle=1;fontSize=13;fillColor=none;strokeColor=#000000;strokeWidth=1.5;" value="Hệ thống Quản lý Hồ sơ Bệnh án Bệnh viện" vertex="1">
+          <mxGeometry height="610" width="770" x="140" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="actor_benhnhan" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=none;strokeColor=#000000;" value="Bệnh nhân" vertex="1">
+          <mxGeometry height="60" width="30" x="35" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="actor_bacsi" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=none;strokeColor=#000000;" value="Bác sĩ khám điều trị" vertex="1">
+          <mxGeometry height="60" width="30" x="975" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="actor_cskh" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=none;strokeColor=#000000;" value="Phòng Chăm sóc&#xa;khách hàng" vertex="1">
+          <mxGeometry height="60" width="30" x="975" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="actor_thungan" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=none;strokeColor=#000000;" value="Thu ngân viện phí" vertex="1">
+          <mxGeometry height="60" width="30" x="975" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_dangky" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="Đăng ký khám bệnh &amp; nộp lệ phí" vertex="1">
+          <mxGeometry height="50" width="220" x="190" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_tracuu" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="Tra cứu hồ sơ theo mã/thông tin" vertex="1">
+          <mxGeometry height="50" width="220" x="265" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_dathen" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="Đặt hẹn khám định kỳ theo quý" vertex="1">
+          <mxGeometry height="50" width="220" x="285" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_xetnghiem" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="Thực hiện xét nghiệm chỉ định" vertex="1">
+          <mxGeometry height="50" width="220" x="265" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_nhantoa" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="Nhận toa thuốc &amp; xuất viện" vertex="1">
+          <mxGeometry height="50" width="220" x="190" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_ghinhan" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="Ghi nhận khám bệnh &amp; chẩn đoán" vertex="1">
+          <mxGeometry height="50" width="210" x="580" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_ketoa" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="Kê toa thuốc điều trị" vertex="1">
+          <mxGeometry height="50" width="210" x="580" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_theodoi" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="Theo dõi diễn biến &amp; phản ứng&#xa;thuốc" vertex="1">
+          <mxGeometry height="50" width="210" x="580" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_nhaphoso" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="Nhập hồ sơ máy tính sau xuất&#xa;viện" vertex="1">
+          <mxGeometry height="50" width="210" x="580" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_thanhtoan" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="Thanh toán viện phí" vertex="1">
+          <mxGeometry height="50" width="210" x="580" y="535" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_bn_1" edge="1" parent="1" source="actor_benhnhan" style="endArrow=none;html=1;strokeColor=#000000;" target="uc_dangky">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_bn_2" edge="1" parent="1" source="actor_benhnhan" style="endArrow=none;html=1;strokeColor=#000000;" target="uc_tracuu">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_bn_3" edge="1" parent="1" source="actor_benhnhan" style="endArrow=none;html=1;strokeColor=#000000;" target="uc_dathen">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_bn_4" edge="1" parent="1" source="actor_benhnhan" style="endArrow=none;html=1;strokeColor=#000000;" target="uc_xetnghiem">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_bn_5" edge="1" parent="1" source="actor_benhnhan" style="endArrow=none;html=1;strokeColor=#000000;" target="uc_nhantoa">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_bs_1" edge="1" parent="1" source="actor_bacsi" style="endArrow=none;html=1;strokeColor=#000000;" target="uc_ghinhan">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_bs_2" edge="1" parent="1" source="actor_bacsi" style="endArrow=none;html=1;strokeColor=#000000;" target="uc_ketoa">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_cskh_1" edge="1" parent="1" source="actor_cskh" style="endArrow=none;html=1;strokeColor=#000000;" target="uc_theodoi">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_cskh_2" edge="1" parent="1" source="actor_cskh" style="endArrow=none;html=1;strokeColor=#000000;" target="uc_nhaphoso">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_tn_1" edge="1" parent="1" source="actor_thungan" style="endArrow=none;html=1;strokeColor=#000000;" target="uc_thanhtoan">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

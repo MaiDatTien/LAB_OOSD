@@ -1,0 +1,55 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="g13XAr14Zn_5n2_Hk1gY" name="Page-1">
+    <mxGraphModel dx="1030" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="node_start" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="25" width="25" x="30" y="187.5" as="geometry" />
+        </mxCell>
+        <mxCell id="state_dadangky" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Đã đăng ký&#xa;(Chờ đi tour)" vertex="1">
+          <mxGeometry height="60" width="160" x="100" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="state_dangditour" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Đang đi tour" vertex="1">
+          <mxGeometry height="60" width="160" x="350" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="state_chothanhtoan" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Chờ thanh toán&#xa;(sau kết thúc)" vertex="1">
+          <mxGeometry height="60" width="160" x="605" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="state_dahoantat" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Đã hoàn tất thanh toán" vertex="1">
+          <mxGeometry height="60" width="170" x="855" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="node_end1" parent="1" style="ellipse;shape=endState;fillColor=#000000;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="28" width="28" x="1065" y="186" as="geometry" />
+        </mxCell>
+        <mxCell id="state_huymatcoc" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Hủy - mất cọc" vertex="1">
+          <mxGeometry height="60" width="160" x="350" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="node_end2" parent="1" style="ellipse;shape=endState;fillColor=#000000;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="28" width="28" x="585" y="336" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_start" edge="1" parent="1" source="node_start" style="endArrow=classic;html=1;strokeColor=#000000;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="state_dadangky">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_denngaydi" edge="1" parent="1" source="state_dadangky" style="endArrow=classic;html=1;strokeColor=#000000;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;verticalAlign=bottom;" target="state_dangditour" value="Đến ngày đi">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_ketthuctour" edge="1" parent="1" source="state_dangditour" style="endArrow=classic;html=1;strokeColor=#000000;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;verticalAlign=bottom;" target="state_chothanhtoan" value="Kết thúc tour">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_tradukinhphi" edge="1" parent="1" source="state_chothanhtoan" style="endArrow=classic;html=1;strokeColor=#000000;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;verticalAlign=bottom;" target="state_dahoantat" value="Trả đủ kinh phí">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_end1" edge="1" parent="1" source="state_dahoantat" style="endArrow=classic;html=1;strokeColor=#000000;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="node_end1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_doankhongdi" edge="1" parent="1" source="state_dadangky" style="endArrow=classic;html=1;strokeColor=#000000;rounded=0;exitX=0.7;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;fontSize=11;verticalAlign=bottom;" target="state_huymatcoc" value="Đoàn không đi">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_end2" edge="1" parent="1" source="state_huymatcoc" style="endArrow=classic;html=1;strokeColor=#000000;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="node_end2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

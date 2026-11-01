@@ -1,0 +1,79 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="PRO9ZILk_gvKXm6fwFdM" name="Page-1">
+    <mxGraphModel dx="1493" dy="814" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="boundary" parent="1" style="shape=rect;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingLeft=15;spacingTop=10;fontStyle=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="540" width="760" x="120" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="actor_nhanvien" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=none;strokeColor=#000000;" value="Nhân viên" vertex="1">
+          <mxGeometry height="60" width="30" x="35" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="actor_thuthu" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=none;strokeColor=#000000;" value="Thủ thư" vertex="1">
+          <mxGeometry height="60" width="30" x="35" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="actor_docgia" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=none;strokeColor=#000000;" value="Độc giả&#xa;(Ngoài hệ thống)" vertex="1">
+          <mxGeometry height="60" width="30" x="935" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_qlnv" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="Quản lý nhân viên" vertex="1">
+          <mxGeometry height="45" width="180" x="150" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_qlnxb" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="Quản lý danh mục NXB" vertex="1">
+          <mxGeometry height="45" width="180" x="330" y="145" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_qltls" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="Quản lý thể loại sách" vertex="1">
+          <mxGeometry height="45" width="180" x="330" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_qlds" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="Quản lý đầu sách" vertex="1">
+          <mxGeometry height="45" width="180" x="150" y="335" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_qldg" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="Quản lý độc giả &amp; cấp thẻ" vertex="1">
+          <mxGeometry height="45" width="190" x="610" y="115" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_lpms" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="Lập phiếu mượn sách" vertex="1">
+          <mxGeometry height="45" width="190" x="610" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_ntsp" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="Nhận trả sách &amp; phạt" vertex="1">
+          <mxGeometry height="45" width="190" x="610" y="375" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_tkbc" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="Thống kê báo cáo" vertex="1">
+          <mxGeometry height="45" width="180" x="330" y="475" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_nv_qlnv" edge="1" parent="1" source="actor_nhanvien" style="endArrow=none;html=1;strokeColor=#000000;" target="uc_qlnv">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_nv_qlnxb" edge="1" parent="1" source="actor_nhanvien" style="endArrow=none;html=1;strokeColor=#000000;" target="uc_qlnxb">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_nv_qltls" edge="1" parent="1" source="actor_nhanvien" style="endArrow=none;html=1;strokeColor=#000000;" target="uc_qltls">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_nv_qlds" edge="1" parent="1" source="actor_nhanvien" style="endArrow=none;html=1;strokeColor=#000000;" target="uc_qlds">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_nv_tt" edge="1" parent="1" source="actor_nhanvien" style="endArrow=none;html=1;strokeColor=#000000;" target="actor_thuthu">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_tt_ntsp" edge="1" parent="1" source="actor_thuthu" style="endArrow=none;html=1;strokeColor=#000000;" target="uc_ntsp">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_tt_tkbc1" edge="1" parent="1" source="actor_thuthu" style="endArrow=none;html=1;strokeColor=#000000;exitX=1;exitY=0.33;exitDx=0;exitDy=0;entryX=0;entryY=0.3;entryDx=0;entryDy=0;" target="uc_tkbc">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_tt_tkbc2" edge="1" parent="1" source="actor_thuthu" style="endArrow=none;html=1;strokeColor=#000000;exitX=1;exitY=0.66;exitDx=0;exitDy=0;entryX=0;entryY=0.7;entryDx=0;entryDy=0;" target="uc_tkbc">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_dg_qldg" edge="1" parent="1" source="actor_docgia" style="endArrow=none;html=1;strokeColor=#000000;align=center;verticalAlign=bottom;" target="uc_qldg" value="Yêu cầu thẻ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_dg_lpms" edge="1" parent="1" source="actor_docgia" style="endArrow=none;html=1;strokeColor=#000000;align=center;verticalAlign=bottom;" target="uc_lpms" value="Yêu cầu mượn">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_dg_ntsp" edge="1" parent="1" source="actor_docgia" style="endArrow=none;html=1;strokeColor=#000000;align=center;verticalAlign=bottom;" target="uc_ntsp" value="Trả sách">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

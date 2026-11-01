@@ -1,0 +1,58 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="FXAZzp2rx-6h3G5t0MVy" name="Page-1">
+    <mxGraphModel dx="1776" dy="969" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=16;" value="Sơ đồ điều hướng màn hình WinForms" vertex="1">
+          <mxGeometry height="30" width="400" x="350" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="node_frmmain" parent="1" style="rounded=1;arcSize=24;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=13;fontStyle=0;" value="FrmMain — menu theo vai trò" vertex="1">
+          <mxGeometry height="60" width="380" x="360" y="75" as="geometry" />
+        </mxCell>
+        <mxCell id="group_dieuhanh" parent="1" style="shape=rect;whiteSpace=wrap;html=1;verticalAlign=top;align=center;spacingTop=20;fontStyle=1;fontSize=13;fillColor=none;strokeColor=#000000;strokeWidth=1.5;" value="Nhân viên điều hành" vertex="1">
+          <mxGeometry height="640" width="320" x="30" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="frm_danhmuc" parent="1" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=12;" value="FrmDanhMuc" vertex="1">
+          <mxGeometry height="70" width="250" x="65" y="315" as="geometry" />
+        </mxCell>
+        <mxCell id="frm_tour" parent="1" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=12;" value="FrmTour" vertex="1">
+          <mxGeometry height="70" width="250" x="65" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="frm_chuyenle" parent="1" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=12;" value="FrmChuyenLe" vertex="1">
+          <mxGeometry height="70" width="250" x="65" y="565" as="geometry" />
+        </mxCell>
+        <mxCell id="frm_phanconghdv" parent="1" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=12;" value="FrmPhanCongHDV" vertex="1">
+          <mxGeometry height="70" width="250" x="65" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="group_kinhdoanh" parent="1" style="shape=rect;whiteSpace=wrap;html=1;verticalAlign=top;align=center;spacingTop=20;fontStyle=1;fontSize=13;fillColor=none;strokeColor=#000000;strokeWidth=1.5;" value="NV bán vé / NV kinh doanh" vertex="1">
+          <mxGeometry height="640" width="320" x="390" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="frm_dangkyle" parent="1" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=12;" value="FrmDangKyLe" vertex="1">
+          <mxGeometry height="70" width="250" x="425" y="315" as="geometry" />
+        </mxCell>
+        <mxCell id="frm_dangkydoan" parent="1" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=12;" value="FrmDangKyDoan" vertex="1">
+          <mxGeometry height="70" width="250" x="425" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="group_ketoancskh" parent="1" style="shape=rect;whiteSpace=wrap;html=1;verticalAlign=top;align=center;spacingTop=20;fontStyle=1;fontSize=13;fillColor=none;strokeColor=#000000;strokeWidth=1.5;" value="Kế toán / CSKH" vertex="1">
+          <mxGeometry height="640" width="320" x="750" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="frm_ketthuckhaosat" parent="1" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=12;" value="FrmKetThucKhaoSat" vertex="1">
+          <mxGeometry height="70" width="250" x="785" y="315" as="geometry" />
+        </mxCell>
+        <mxCell id="frm_luongthongke" parent="1" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=12;" value="FrmLuongThongKe" vertex="1">
+          <mxGeometry height="70" width="250" x="785" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_main_dieuhanh" edge="1" parent="1" source="node_frmmain" style="endArrow=classic;html=1;strokeColor=#000000;strokeWidth=1.2;rounded=0;exitX=0.21;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="group_dieuhanh">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_main_kinhdoanh" edge="1" parent="1" source="node_frmmain" style="endArrow=classic;html=1;strokeColor=#000000;strokeWidth=1.2;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="group_kinhdoanh">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_main_ketoancskh" edge="1" parent="1" source="node_frmmain" style="endArrow=classic;html=1;strokeColor=#000000;strokeWidth=1.2;rounded=0;exitX=0.79;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="group_ketoancskh">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

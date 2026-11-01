@@ -1,0 +1,103 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="_6A-KqYG854GACvb2D7q" name="Page-1">
+    <mxGraphModel dx="3402" dy="1405" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="boundary" parent="1" style="shape=rect;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingLeft=15;spacingTop=10;fontStyle=1;fillColor=none;strokeColor=#000000;" value="Hệ thống Cửa hàng trực tuyến e-Shopping" vertex="1">
+          <mxGeometry height="900" width="730" x="160" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="actor_kh" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=none;strokeColor=#000000;" value="Khách hàng" vertex="1">
+          <mxGeometry height="60" width="30" x="35" y="275" as="geometry" />
+        </mxCell>
+        <mxCell id="actor_qlsp" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=none;strokeColor=#000000;" value="Hệ thống quản lý&#xa;sản phẩm" vertex="1">
+          <mxGeometry height="60" width="30" x="925" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="actor_thanhtoan" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=none;strokeColor=#000000;" value="Hệ thống thanh toán&#xa;trực tuyến" vertex="1">
+          <mxGeometry height="60" width="30" x="35" y="635" as="geometry" />
+        </mxCell>
+        <mxCell id="actor_email" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=none;strokeColor=#000000;" value="Hệ thống email" vertex="1">
+          <mxGeometry height="60" width="30" x="35" y="725" as="geometry" />
+        </mxCell>
+        <mxCell id="actor_xuly" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=none;strokeColor=#000000;" value="NV xử lý đơn hàng" vertex="1">
+          <mxGeometry height="60" width="30" x="35" y="805" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_xemnhom" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="Xem danh sách sản phẩm theo nhóm" vertex="1">
+          <mxGeometry height="45" width="240" x="445" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_chitiet" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="Xem chi tiết sản phẩm" vertex="1">
+          <mxGeometry height="45" width="240" x="445" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_themgio" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="Đưa sản phẩm vào giỏ hàng" vertex="1">
+          <mxGeometry height="45" width="240" x="445" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_capnhatgio" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="Cập nhật giỏ hàng" vertex="1">
+          <mxGeometry height="45" width="240" x="445" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_dangky" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="Đăng ký tài khoản khách hàng" vertex="1">
+          <mxGeometry height="45" width="240" x="445" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_dangnhap" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="Đăng nhập hệ thống" vertex="1">
+          <mxGeometry height="45" width="240" x="445" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_tinhtien" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="Tính tiền và thanh toán thẻ" vertex="1">
+          <mxGeometry height="45" width="240" x="445" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_ghinhan" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="Ghi nhận đơn hàng" vertex="1">
+          <mxGeometry height="45" width="240" x="445" y="615" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_guimail" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="Gửi email xác nhận đặt hàng" vertex="1">
+          <mxGeometry height="45" width="240" x="445" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_theodoi" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="Theo dõi và xử lý đơn hàng" vertex="1">
+          <mxGeometry height="45" width="240" x="445" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_kh_uc1" edge="1" parent="1" source="actor_kh" style="endArrow=none;html=1;strokeColor=#000000;" target="uc_xemnhom">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_kh_uc2" edge="1" parent="1" source="actor_kh" style="endArrow=none;html=1;strokeColor=#000000;" target="uc_chitiet">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_kh_uc3" edge="1" parent="1" source="actor_kh" style="endArrow=none;html=1;strokeColor=#000000;" target="uc_themgio">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_kh_uc4" edge="1" parent="1" source="actor_kh" style="endArrow=none;html=1;strokeColor=#000000;" target="uc_capnhatgio">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_kh_uc5" edge="1" parent="1" source="actor_kh" style="endArrow=none;html=1;strokeColor=#000000;" target="uc_dangky">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_kh_uc6" edge="1" parent="1" source="actor_kh" style="endArrow=none;html=1;strokeColor=#000000;" target="uc_dangnhap">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_kh_uc7" edge="1" parent="1" source="actor_kh" style="endArrow=none;html=1;strokeColor=#000000;" target="uc_tinhtien">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_qlsp_uc1" edge="1" parent="1" source="actor_qlsp" style="endArrow=none;html=1;strokeColor=#000000;" target="uc_xemnhom">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_qlsp_uc2" edge="1" parent="1" source="actor_qlsp" style="endArrow=none;html=1;strokeColor=#000000;" target="uc_chitiet">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_inc_1" edge="1" parent="1" source="uc_tinhtien" style="endArrow=open;endSize=12;dashed=1;html=1;strokeColor=#000000;verticalAlign=bottom;align=center;" target="uc_ghinhan" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_inc_2" edge="1" parent="1" source="uc_ghinhan" style="endArrow=open;endSize=12;dashed=1;html=1;strokeColor=#000000;verticalAlign=bottom;align=center;" target="uc_guimail" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_ext_1" edge="1" parent="1" source="uc_guimail" style="endArrow=open;endSize=12;dashed=1;html=1;strokeColor=#000000;verticalAlign=bottom;align=center;" target="uc_theodoi" value="«extend»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_thanhtoan_uc7" edge="1" parent="1" source="actor_thanhtoan" style="endArrow=none;html=1;strokeColor=#000000;" target="uc_tinhtien">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_email_uc9" edge="1" parent="1" source="actor_email" style="endArrow=none;html=1;strokeColor=#000000;" target="uc_guimail">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_xuly_uc10" edge="1" parent="1" source="actor_xuly" style="endArrow=none;html=1;strokeColor=#000000;" target="uc_theodoi">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

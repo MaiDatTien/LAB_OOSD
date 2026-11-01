@@ -1,0 +1,70 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="Jfx-O6ubFdTze-FKPIjH" name="Page-1">
+    <mxGraphModel dx="1241" dy="677" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="boundary" parent="1" style="shape=rect;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingLeft=15;spacingTop=10;fontStyle=1;fillColor=none;strokeColor=#000000;" value="Hệ thống Quản lý Khách sạn" vertex="1">
+          <mxGeometry height="540" width="780" x="130" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="actor_letan" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=none;strokeColor=#000000;" value="NV Lễ tân" vertex="1">
+          <mxGeometry height="60" width="30" x="40" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="actor_phucvu" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=none;strokeColor=#000000;" value="NV Phục vụ phòng" vertex="1">
+          <mxGeometry height="60" width="30" x="40" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="actor_thanhtoan" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=none;strokeColor=#000000;" value="NV Thanh toán" vertex="1">
+          <mxGeometry height="60" width="30" x="40" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="actor_nhanvien_chung" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=none;strokeColor=#000000;" value="Nhân viên&#xa;(Chung)" vertex="1">
+          <mxGeometry height="60" width="30" x="945" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="actor_quanly" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=none;strokeColor=#000000;" value="Quản lý khách sạn" vertex="1">
+          <mxGeometry height="60" width="30" x="945" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_datphong" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="Đặt / nhận phòng" vertex="1">
+          <mxGeometry height="45" width="185" x="160" y="95" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_qlphong" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="Quản lý phòng - tiện nghi" vertex="1">
+          <mxGeometry height="45" width="185" x="160" y="205" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_lapphieu" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="Lập phiếu đền bù tiện nghi" vertex="1">
+          <mxGeometry height="45" width="185" x="160" y="315" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_traphong" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="Trả phòng - thanh toán" vertex="1">
+          <mxGeometry height="45" width="185" x="160" y="435" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_ghinhan_dv" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="Ghi nhận dịch vụ phòng" vertex="1">
+          <mxGeometry height="45" width="185" x="420" y="145" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_qldanhmuc" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="Quản lý danh mục nền" vertex="1">
+          <mxGeometry height="45" width="185" x="420" y="355" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_thongke" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="Thống kê báo cáo" vertex="1">
+          <mxGeometry height="45" width="185" x="680" y="455" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_letan_datphong" edge="1" parent="1" source="actor_letan" style="endArrow=none;html=1;strokeColor=#000000;" target="uc_datphong">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_phucvu_qlphong" edge="1" parent="1" source="actor_phucvu" style="endArrow=none;html=1;strokeColor=#000000;" target="uc_qlphong">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_phucvu_lapphieu" edge="1" parent="1" source="actor_phucvu" style="endArrow=none;html=1;strokeColor=#000000;" target="uc_lapphieu">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_thanhtoan_traphong" edge="1" parent="1" source="actor_thanhtoan" style="endArrow=none;html=1;strokeColor=#000000;" target="uc_traphong">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_chung_dv" edge="1" parent="1" source="actor_nhanvien_chung" style="endArrow=none;html=1;strokeColor=#000000;" target="uc_ghinhan_dv">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_chung_danhmuc" edge="1" parent="1" source="actor_nhanvien_chung" style="endArrow=none;html=1;strokeColor=#000000;" target="uc_qldanhmuc">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_quanly_thongke" edge="1" parent="1" source="actor_quanly" style="endArrow=none;html=1;strokeColor=#000000;" target="uc_thongke">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

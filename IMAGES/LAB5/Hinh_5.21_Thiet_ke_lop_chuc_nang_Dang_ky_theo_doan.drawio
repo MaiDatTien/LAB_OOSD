@@ -1,0 +1,168 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="0gMQnqO65p8GaaPBrOBy" name="Page-1">
+    <mxGraphModel dx="1776" dy="969" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lbl_col_boundary" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontStyle=1;fontSize=11;" value="GIAO DIỆN &lt;&lt;boundary&gt;&gt;" vertex="1">
+          <mxGeometry height="20" width="190" x="30" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="lbl_col_control" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontStyle=1;fontSize=11;" value="DỊCH VỤ &lt;&lt;control&gt;&gt;" vertex="1">
+          <mxGeometry height="20" width="200" x="300" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="lbl_col_entity" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontStyle=1;fontSize=11;" value="DỮ LIỆU NGHIỆP VỤ &lt;&lt;entity&gt;&gt;" vertex="1">
+          <mxGeometry height="20" width="240" x="555" y="75" as="geometry" />
+        </mxCell>
+        <mxCell id="c_frmdangkydoan" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" value="FrmDangKyDoan&#xa;&lt;&lt;boundary&gt;&gt;" vertex="1">
+          <mxGeometry height="215" width="205" x="38" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="c_frmdangkydoan_attr" parent="c_frmdangkydoan" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="—" vertex="1">
+          <mxGeometry height="25" width="205" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c_frmdangkydoan_sep" parent="c_frmdangkydoan" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="8" width="205" y="65" as="geometry" />
+        </mxCell>
+        <mxCell id="c_frmdangkydoan_meth" parent="c_frmdangkydoan" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=8;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="Form_Load()&#xa;layTourMoBan()&#xa;kiemTraDuLieu()&#xa;btnLapPhieu_Click()&#xa;btnHuy_Click()" vertex="1">
+          <mxGeometry height="142" width="205" y="73" as="geometry" />
+        </mxCell>
+        <mxCell id="c_dangkydoanservice" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" value="DangKyDoanService&#xa;&lt;&lt;control&gt;&gt;" vertex="1">
+          <mxGeometry height="215" width="220" x="290" y="205" as="geometry" />
+        </mxCell>
+        <mxCell id="c_dangkydoanservice_attr" parent="c_dangkydoanservice" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="—" vertex="1">
+          <mxGeometry height="25" width="220" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c_dangkydoanservice_sep" parent="c_dangkydoanservice" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="8" width="220" y="65" as="geometry" />
+        </mxCell>
+        <mxCell id="c_dangkydoanservice_meth" parent="c_dangkydoanservice" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=8;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="LayDanhSach()&#xa;TinhNgayKetThuc()&#xa;DangKy()&#xa;HuyDangKy()&#xa;KiemTraTrungLich()" vertex="1">
+          <mxGeometry height="142" width="220" y="73" as="geometry" />
+        </mxCell>
+        <mxCell id="c_tourservice" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" value="TourService&#xa;&lt;&lt;control&gt;&gt;" vertex="1">
+          <mxGeometry height="180" width="220" x="290" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="c_tourservice_attr" parent="c_tourservice" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="—" vertex="1">
+          <mxGeometry height="25" width="220" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c_tourservice_sep" parent="c_tourservice" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="8" width="220" y="65" as="geometry" />
+        </mxCell>
+        <mxCell id="c_tourservice_meth" parent="c_tourservice" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=8;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="LayTour()&#xa;LayTourMoBan()&#xa;ThemTour()&#xa;ThemDiemDung()" vertex="1">
+          <mxGeometry height="107" width="220" y="73" as="geometry" />
+        </mxCell>
+        <mxCell id="c_doankhach" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" value="DoanKhach&#xa;&lt;&lt;entity&gt;&gt;" vertex="1">
+          <mxGeometry height="215" width="210" x="560" y="145" as="geometry" />
+        </mxCell>
+        <mxCell id="c_doankhach_attr" parent="c_doankhach" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=8;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="MaDoan: String&#xa;TenCoQuanDaiDien: String&#xa;DienThoai: String&#xa;DiaChi: String&#xa;NguoiDaiDien: String" vertex="1">
+          <mxGeometry height="120" width="210" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c_doankhach_sep" parent="c_doankhach" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="8" width="210" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="c_doankhach_meth" parent="c_doankhach" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="luuHoacCapNhat()" vertex="1">
+          <mxGeometry height="47" width="210" y="168" as="geometry" />
+        </mxCell>
+        <mxCell id="c_phieudangkydoan" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" value="PhieuDangKyDoan&#xa;&lt;&lt;entity&gt;&gt;" vertex="1">
+          <mxGeometry height="290" width="220" x="795" y="145" as="geometry" />
+        </mxCell>
+        <mxCell id="c_phieudangkydoan_attr" parent="c_phieudangkydoan" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=8;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="NgayDi: Date&#xa;NgayKetThucDuKien: Date&#xa;MuaBaoHiem: Boolean&#xa;TienCoc: Decimal&#xa;TongTienDuKien: Decimal" vertex="1">
+          <mxGeometry height="115" width="220" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c_phieudangkydoan_sep" parent="c_phieudangkydoan" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="8" width="220" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="c_phieudangkydoan_meth" parent="c_phieudangkydoan" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=8;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="lapPhieu()&#xa;tinhNgayKetThuc()&#xa;huyMatCoc()&#xa;tinhConLai()&#xa;hoanTatThanhToan()" vertex="1">
+          <mxGeometry height="127" width="220" y="163" as="geometry" />
+        </mxCell>
+        <mxCell id="c_thanhviendoan" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" value="ThanhVienDoan&#xa;&lt;&lt;entity&gt;&gt;" vertex="1">
+          <mxGeometry height="210" width="210" x="560" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="c_thanhviendoan_attr" parent="c_thanhviendoan" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=8;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="SoDKDoan: String&#xa;STT: Integer&#xa;HoTen: String&#xa;NgaySinh: Date&#xa;SoGiayTo: String" vertex="1">
+          <mxGeometry height="115" width="210" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c_thanhviendoan_sep" parent="c_thanhviendoan" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="8" width="210" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="c_thanhviendoan_meth" parent="c_thanhviendoan" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="themThanhVien()" vertex="1">
+          <mxGeometry height="47" width="210" y="163" as="geometry" />
+        </mxCell>
+        <mxCell id="c_tour" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" value="Tour&#xa;&lt;&lt;entity&gt;&gt;" vertex="1">
+          <mxGeometry height="190" width="220" x="795" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="c_tour_attr" parent="c_tour" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=8;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="MaTour: String&#xa;TenTour: String&#xa;SoNgay: Integer&#xa;DonGiaKhach: Decimal" vertex="1">
+          <mxGeometry height="100" width="220" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c_tour_sep" parent="c_tour" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="8" width="220" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="c_tour_meth" parent="c_tour" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="laySoNgay()" vertex="1">
+          <mxGeometry height="42" width="220" y="148" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_frm_trunk" edge="1" parent="1" source="c_frmdangkydoan" style="endArrow=none;html=1;strokeColor=#000000;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="488" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_frm_dangkydoanservice" edge="1" parent="1" style="endArrow=classic;html=1;strokeColor=#000000;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="c_dangkydoanservice">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="260" y="313" />
+            </Array>
+            <mxPoint x="260" y="488" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_frm_tourservice" edge="1" parent="1" style="endArrow=classic;html=1;strokeColor=#000000;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="c_tourservice">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="260" y="720" />
+            </Array>
+            <mxPoint x="260" y="488" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_service_trunk" edge="1" parent="1" source="c_dangkydoanservice" style="endArrow=none;html=1;strokeColor=#000000;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="535" y="313" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_trunk_doankhach" edge="1" parent="1" style="endArrow=classic;html=1;strokeColor=#000000;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="c_doankhach">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="535" y="253" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_overhead_phieudoan" edge="1" parent="1" style="endArrow=classic;html=1;strokeColor=#000000;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="c_phieudangkydoan">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="535" y="105" />
+              <mxPoint x="785" y="105" />
+              <mxPoint x="785" y="290" />
+            </Array>
+            <mxPoint x="535" y="313" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_overhead_tour" edge="1" parent="1" style="endArrow=classic;html=1;strokeColor=#000000;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="c_tour">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="785" y="695" />
+            </Array>
+            <mxPoint x="785" y="290" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_tourservice_trunk" edge="1" parent="1" source="c_tourservice" style="endArrow=none;html=1;strokeColor=#000000;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="535" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_trunk_vertical" edge="1" parent="1" style="endArrow=none;html=1;strokeColor=#000000;rounded=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="535" y="313" as="sourcePoint" />
+            <mxPoint x="535" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_trunk_thanhvien" edge="1" parent="1" style="endArrow=classic;html=1;strokeColor=#000000;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="c_thanhviendoan">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="535" y="705" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

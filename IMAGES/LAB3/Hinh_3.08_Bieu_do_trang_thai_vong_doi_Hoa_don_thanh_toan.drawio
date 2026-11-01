@@ -1,0 +1,37 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="JG-lgc3-M0h8oKZjIJ08" name="Page-1">
+    <mxGraphModel dx="1030" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="node_start" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="25" width="25" x="30" y="87.5" as="geometry" />
+        </mxCell>
+        <mxCell id="state_moilap" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Mới lập&#xa;(Chờ thanh toán)" vertex="1">
+          <mxGeometry height="60" width="180" x="110" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="state_thanhtoanmotphan" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Thanh toán một phần" vertex="1">
+          <mxGeometry height="60" width="180" x="400" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="state_dathanhtoandu" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Đã thanh toán đủ" vertex="1">
+          <mxGeometry height="60" width="180" x="690" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="node_end" parent="1" style="ellipse;shape=endState;fillColor=#000000;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="28" width="28" x="930" y="86" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_start" edge="1" parent="1" source="node_start" style="endArrow=classic;html=1;strokeColor=#000000;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="state_moilap">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_tramotphan" edge="1" parent="1" source="state_moilap" style="endArrow=classic;html=1;strokeColor=#000000;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;verticalAlign=bottom;" target="state_thanhtoanmotphan" value="Trả một phần">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_tradu" edge="1" parent="1" source="state_thanhtoanmotphan" style="endArrow=classic;html=1;strokeColor=#000000;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;verticalAlign=bottom;" target="state_dathanhtoandu" value="Trả đủ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_end" edge="1" parent="1" source="state_dathanhtoandu" style="endArrow=classic;html=1;strokeColor=#000000;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="node_end">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

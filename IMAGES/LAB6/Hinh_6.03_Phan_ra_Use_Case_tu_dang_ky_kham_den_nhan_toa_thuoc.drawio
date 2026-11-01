@@ -1,0 +1,54 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="wnDiTqc1k0Ud5UkUw5Ok" name="Page-1">
+    <mxGraphModel dx="1493" dy="814" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="boundary" parent="1" style="shape=rect;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingLeft=15;spacingTop=10;fontStyle=1;fontSize=13;fillColor=none;strokeColor=#000000;strokeWidth=1.5;" value="Phân rã: Quy trình từ Đăng ký khám đến Nhận toa thuốc" vertex="1">
+          <mxGeometry height="570" width="870" x="140" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="actor_benhnhan" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=none;strokeColor=#000000;" value="Bệnh nhân" vertex="1">
+          <mxGeometry height="60" width="30" x="40" y="285" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_dienphieu" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="Điền phiếu đăng ký &amp; nộp lệ phí" vertex="1">
+          <mxGeometry height="50" width="240" x="210" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_phathoso" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="Phát hồ sơ bệnh án &amp; trang bìa" vertex="1">
+          <mxGeometry height="50" width="240" x="280" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_khamlamsang" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="Khám lâm sàng &amp; ghi triệu chứng" vertex="1">
+          <mxGeometry height="50" width="240" x="240" y="295" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_thuchienxn" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="Thực hiện xét nghiệm cần thiết" vertex="1">
+          <mxGeometry height="50" width="240" x="280" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_ketoathuoc" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="Bác sĩ kê toa thuốc điều trị" vertex="1">
+          <mxGeometry height="50" width="240" x="210" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_xnbosung" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="Chỉ định xét nghiệm bổ sung" vertex="1">
+          <mxGeometry height="50" width="230" x="670" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_bn_dienphieu" edge="1" parent="1" source="actor_benhnhan" style="endArrow=none;html=1;strokeColor=#000000;" target="uc_dienphieu">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_bn_phathoso" edge="1" parent="1" source="actor_benhnhan" style="endArrow=none;html=1;strokeColor=#000000;" target="uc_phathoso">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_bn_kham" edge="1" parent="1" source="actor_benhnhan" style="endArrow=none;html=1;strokeColor=#000000;" target="uc_khamlamsang">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_bn_thuchienxn" edge="1" parent="1" source="actor_benhnhan" style="endArrow=none;html=1;strokeColor=#000000;" target="uc_thuchienxn">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_bn_ketoa" edge="1" parent="1" source="actor_benhnhan" style="endArrow=none;html=1;strokeColor=#000000;" target="uc_ketoathuoc">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_extend_xnbosung" edge="1" parent="1" source="uc_khamlamsang" style="endArrow=open;dashed=1;html=1;strokeColor=#000000;verticalAlign=bottom;align=center;exitX=0.9;exitY=0.8;exitDx=0;exitDy=0;entryX=0.1;entryY=0.2;entryDx=0;entryDy=0;" target="uc_xnbosung" value="«extend»">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

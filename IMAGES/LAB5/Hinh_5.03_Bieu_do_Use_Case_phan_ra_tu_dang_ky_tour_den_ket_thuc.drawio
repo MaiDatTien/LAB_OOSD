@@ -1,0 +1,58 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="GWqw8EiE8_VjDMLrmGJo" name="Page-1">
+    <mxGraphModel dx="1241" dy="677" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="boundary" parent="1" style="shape=rect;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingLeft=15;spacingTop=10;fontStyle=1;fillColor=none;strokeColor=#000000;" value="Phân rã: từ đăng ký tour đến khi kết thúc tour" vertex="1">
+          <mxGeometry height="520" width="780" x="140" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="actor_nv" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=none;strokeColor=#000000;" value="NV kinh doanh /&#xa;NV bán vé" vertex="1">
+          <mxGeometry height="60" width="30" x="40" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_dk_le" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="Đăng ký khách lẻ theo chuyến" vertex="1">
+          <mxGeometry height="50" width="220" x="200" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_tt_ve" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="Thanh toán tiền vé ngay" vertex="1">
+          <mxGeometry height="50" width="220" x="270" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_dk_doan" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="Lập phiếu đăng ký đoàn + cọc" vertex="1">
+          <mxGeometry height="50" width="220" x="290" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_pc_hdv" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="Phân công hướng dẫn viên" vertex="1">
+          <mxGeometry height="50" width="220" x="270" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_kt_tour" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="Kết thúc tour &amp; thanh toán đoàn" vertex="1">
+          <mxGeometry height="50" width="220" x="200" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_chon_chuyen" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="Chọn chuyến đang mở đăng ký" vertex="1">
+          <mxGeometry height="50" width="210" x="610" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_kt_trunglich" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="Kiểm tra trùng lịch HDV" vertex="1">
+          <mxGeometry height="50" width="210" x="610" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_act_1" edge="1" parent="1" source="actor_nv" style="endArrow=none;html=1;strokeColor=#000000;" target="uc_dk_le">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_act_2" edge="1" parent="1" source="actor_nv" style="endArrow=none;html=1;strokeColor=#000000;" target="uc_tt_ve">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_act_3" edge="1" parent="1" source="actor_nv" style="endArrow=none;html=1;strokeColor=#000000;" target="uc_dk_doan">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_act_4" edge="1" parent="1" source="actor_nv" style="endArrow=none;html=1;strokeColor=#000000;" target="uc_pc_hdv">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_act_5" edge="1" parent="1" source="actor_nv" style="endArrow=none;html=1;strokeColor=#000000;" target="uc_kt_tour">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_inc_1" edge="1" parent="1" source="uc_dk_le" style="endArrow=open;endSize=12;dashed=1;html=1;strokeColor=#000000;verticalAlign=bottom;align=center;" target="uc_chon_chuyen" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_inc_2" edge="1" parent="1" source="uc_pc_hdv" style="endArrow=open;endSize=12;dashed=1;html=1;strokeColor=#000000;verticalAlign=bottom;align=center;" target="uc_kt_trunglich" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

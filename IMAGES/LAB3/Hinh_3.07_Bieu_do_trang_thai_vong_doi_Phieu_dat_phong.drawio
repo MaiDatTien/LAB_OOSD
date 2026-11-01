@@ -1,0 +1,49 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="BEwLg-8lmEiHEFxOEhkd" name="Page-1">
+    <mxGraphModel dx="1030" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="node_start" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="25" width="25" x="35" y="187.5" as="geometry" />
+        </mxCell>
+        <mxCell id="state_chonhan" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Chờ nhận phòng&#xa;(Đã đặt cọc)" vertex="1">
+          <mxGeometry height="60" width="180" x="120" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="state_dango" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Đang ở&#xa;(Check-in)" vertex="1">
+          <mxGeometry height="60" width="170" x="395" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="state_datra" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Đã trả phòng&#xa;(Check-out)" vertex="1">
+          <mxGeometry height="60" width="170" x="660" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="node_end1" parent="1" style="ellipse;shape=endState;fillColor=#000000;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="28" width="28" x="900" y="186" as="geometry" />
+        </mxCell>
+        <mxCell id="state_huydat" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Hủy đặt&#xa;(No-show / Mất cọc)" vertex="1">
+          <mxGeometry height="60" width="180" x="255" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="node_end2" parent="1" style="ellipse;shape=endState;fillColor=#000000;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="28" width="28" x="535" y="336" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_start" edge="1" parent="1" source="node_start" style="endArrow=classic;html=1;strokeColor=#000000;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="state_chonhan">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_nhanphong" edge="1" parent="1" source="state_chonhan" style="endArrow=classic;html=1;strokeColor=#000000;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;verticalAlign=bottom;" target="state_dango" value="Nhận phòng">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_traphong" edge="1" parent="1" source="state_dango" style="endArrow=classic;html=1;strokeColor=#000000;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;verticalAlign=bottom;" target="state_datra" value="Trả phòng &amp; HĐ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_end1" edge="1" parent="1" source="state_datra" style="endArrow=classic;html=1;strokeColor=#000000;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="node_end1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_quahan" edge="1" parent="1" source="state_chonhan" style="endArrow=classic;html=1;strokeColor=#000000;rounded=0;exitX=0.7;exitY=1;exitDx=0;exitDy=0;entryX=0.45;entryY=0;entryDx=0;entryDy=0;fontSize=11;verticalAlign=bottom;" target="state_huydat" value="Quá hạn / Hủy">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_end2" edge="1" parent="1" source="state_huydat" style="endArrow=classic;html=1;strokeColor=#000000;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="node_end2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,91 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="0A2KlWttYV57Skyt9yWO" name="Page-1">
+    <mxGraphModel dx="1776" dy="969" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="boundary" parent="1" style="shape=rect;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingLeft=15;spacingTop=10;fontStyle=1;fillColor=none;strokeColor=#000000;" value="Hệ thống Quản lý Công ty Du lịch" vertex="1">
+          <mxGeometry height="680" width="760" x="140" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="actor_kh" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=none;strokeColor=#000000;" value="Khách hàng&#xa;(Xem website)" vertex="1">
+          <mxGeometry height="60" width="30" x="35" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="actor_banve" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=none;strokeColor=#000000;" value="NV bán vé" vertex="1">
+          <mxGeometry height="60" width="30" x="35" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="actor_kd" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=none;strokeColor=#000000;" value="NV kinh doanh" vertex="1">
+          <mxGeometry height="60" width="30" x="35" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="actor_cskh" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=none;strokeColor=#000000;" value="NV CSKH" vertex="1">
+          <mxGeometry height="60" width="30" x="35" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="actor_dieuhanh" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=none;strokeColor=#000000;" value="NV điều hành" vertex="1">
+          <mxGeometry height="60" width="30" x="945" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="actor_ketoan" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=none;strokeColor=#000000;" value="Kế toán" vertex="1">
+          <mxGeometry height="60" width="30" x="945" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_xemtour" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="Xem thông tin tour quảng cáo" vertex="1">
+          <mxGeometry height="50" width="220" x="210" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_dangkykhachle" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="Đăng ký khách lẻ theo chuyến" vertex="1">
+          <mxGeometry height="50" width="220" x="210" y="215" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_lapphieudoan" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="Lập phiếu đăng ký theo đoàn" vertex="1">
+          <mxGeometry height="50" width="220" x="210" y="345" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_huydangky" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="Hủy đăng ký đoàn (mất cọc)" vertex="1">
+          <mxGeometry height="50" width="220" x="210" y="475" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_khaosat" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="Gửi khảo sát &amp; ghi góp ý" vertex="1">
+          <mxGeometry height="50" width="220" x="210" y="605" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_qltour" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="Quản lý tour - hành trình" vertex="1">
+          <mxGeometry height="50" width="220" x="550" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_qllich" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="Quản lý lịch chuyến khách lẻ" vertex="1">
+          <mxGeometry height="50" width="220" x="550" y="235" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_phancong" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="Phân công hướng dẫn viên" vertex="1">
+          <mxGeometry height="50" width="220" x="550" y="365" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_thanhtoan" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="Thanh toán kinh phí đoàn" vertex="1">
+          <mxGeometry height="50" width="220" x="550" y="495" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_tinhluong" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="Tính lương hướng dẫn viên" vertex="1">
+          <mxGeometry height="50" width="220" x="550" y="625" as="geometry" />
+        </mxCell>
+        <mxCell id="e_kh_xemtour" edge="1" parent="1" source="actor_kh" style="endArrow=none;html=1;strokeColor=#000000;" target="uc_xemtour">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_bv_dangky" edge="1" parent="1" source="actor_banve" style="endArrow=none;html=1;strokeColor=#000000;" target="uc_dangkykhachle">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_kd_lapphieu" edge="1" parent="1" source="actor_kd" style="endArrow=none;html=1;strokeColor=#000000;" target="uc_lapphieudoan">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_kd_huydk" edge="1" parent="1" source="actor_kd" style="endArrow=none;html=1;strokeColor=#000000;" target="uc_huydangky">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_cskh_ks" edge="1" parent="1" source="actor_cskh" style="endArrow=none;html=1;strokeColor=#000000;" target="uc_khaosat">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_dh_qltour" edge="1" parent="1" source="actor_dieuhanh" style="endArrow=none;html=1;strokeColor=#000000;" target="uc_qltour">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_dh_qllich" edge="1" parent="1" source="actor_dieuhanh" style="endArrow=none;html=1;strokeColor=#000000;" target="uc_qllich">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_dh_phancong" edge="1" parent="1" source="actor_dieuhanh" style="endArrow=none;html=1;strokeColor=#000000;" target="uc_phancong">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_kt_thanhtoan" edge="1" parent="1" source="actor_ketoan" style="endArrow=none;html=1;strokeColor=#000000;" target="uc_thanhtoan">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_kt_tinhluong" edge="1" parent="1" source="actor_ketoan" style="endArrow=none;html=1;strokeColor=#000000;" target="uc_tinhluong">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
